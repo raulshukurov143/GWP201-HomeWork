@@ -1,0 +1,89 @@
+.class1 {
+  background-color: darkcyan;
+}
+
+.user {
+  background-color: darksalmon;
+}
+.save {
+  background-color: chartreuse;
+}
+.class2 {
+  background-color: darkslategray;
+}
+.sing in {
+  background-color: orange;
+}
+.class1 {
+  display: ;
+}
+.sing in {
+  background-color: blue;
+}
+.css {
+  color: darkslategrey;
+}
+
+.class1 {
+  display: flex;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+.class2 {
+  display: flex;
+  justify-content: center;
+}
+.sub :hover {
+  background-color: orange;
+  background-color: blue;
+}
+.img1 {
+  margin: 15px;
+  padding: 60px;
+}
+input :invalid {
+  color: blue;
+}
+.sub :hover {
+  color: blue;
+  background-color: red;
+}
+.pass {
+  color: yellow;
+}
+.fir {
+  color: blue;
+}
+.las {
+  color: blueviolet;
+}
+.email {
+  color: green;
+}
+.in1 :hover {
+  background-color: black;
+}
+.in1:focus {
+  color: blue;
+  background-color: red;
+}
+.in2:focus {
+  color: blue;
+  background-color: red;
+}
+.in3:focus {
+  color: blue;
+  background-color: red;
+}
+.in4:focus {
+  color: blue;
+  background-color: red;
+}
+.sub:hover {
+  color: red;
+  background-color: blue;
+}
