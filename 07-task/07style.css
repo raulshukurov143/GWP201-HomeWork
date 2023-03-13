@@ -1,0 +1,36 @@
+.d1 {
+  margin: 15px;
+  padding: 50px;
+}
+.S1 {
+  display: flex;
+  justify-content: center;
+}
+.f2 {
+  margin: 14px;
+  padding: 40px;
+}
+.f1 {
+  margin: 15px;
+  padding: 40px;
+}
+.S1 {
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.I1 {
+  background-color: transparent;
+}
+.I1:hover {
+  color: brown;
+  background-color: blanchedalmond;
+}
+.I2 {
+  background-color: transparent;
+}
+.I2:hover {
+  color: blue;
+  background-color: aliceblue;
+}

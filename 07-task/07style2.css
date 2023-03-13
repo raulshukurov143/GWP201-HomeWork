@@ -1,0 +1,28 @@
+.S1 {
+  display: flex;
+  justify-content: center;
+}
+body {
+  background-image: url(Hogvards.jpg);
+}
+.S1 {
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 60px;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  /* Full Heigth */
+  height: 50%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Image Used */
+.S1 .img1 {
+  background-image: url(Harry.png);
+}
