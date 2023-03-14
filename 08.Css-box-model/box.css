@@ -1,0 +1,91 @@
+.H1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px;
+}
+.nav1 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 100px;
+  list-style-type: none;
+}
+.nav1 ul li a {
+  text-decoration: none;
+}
+.nav1 ul li {
+  border: 1px silod transparent;
+}
+.nav1 ul li :hover {
+  color: blue;
+  background-color: coral;
+}
+.D2 ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 70px;
+  list-style-type: none;
+}
+.FeD {
+  font-family: "Tilt Neon", cursive;
+
+  color: black;
+  font-weight: 10;
+  margin: 14px;
+  padding: 60px;
+  font-size: 3rem;
+  text-shadow: 3px 3px 5px red;
+}
+.P1 {
+  width: 380px;
+  margin: 14px;
+  padding: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.S1 {
+  background-image: url(Hagrid.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+}
+.A1 {
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: transparent;
+}
+.D3 {
+  margin: 14px;
+  padding: 60px;
+}
+
+.A1:hover {
+  color: brown;
+  background-color: cornflowerblue;
+}
+.S2 {
+  background-image: url(Trio.jpg);
+  background-repeat: no-repeat;
+  height: 800px;
+  background-attachment: fixed;
+}
+.H2 {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 100px;
+  padding: 100px;
+}
+.H2 ul {
+  list-style-type: none;
+}
+.F1 {
+  background-color: darkslategrey;
+}
+.D4 ul {
+  display: flex;
+  column-gap: 20px;
+}
+.C1 {
+  text-decoration: underline red;
+}
