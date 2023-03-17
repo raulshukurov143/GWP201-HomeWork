@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.minion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.H1::after {
+  content: "";
+  border: 2px solid red;
+  display: block;
+  width: 100px;
+}
+.img2 {
+  display: none;
+}
+.H1 {
+  color: darkslategrey;
+}
+.container p {
+  color: blue;
+}
+@media only screen and (max-width: 768px) {
+  .minion {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .img1 {
+    display: none;
+  }
+  .img2 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-color: chocolate;
+  }
+  .H1::after {
+    content: "";
+    border: 2px solid red;
+    display: block;
+    width: 200px;
+  }
+  .H1 {
+    color: blue;
+  }
+  .container p {
+    color: red;
+  }
+}
