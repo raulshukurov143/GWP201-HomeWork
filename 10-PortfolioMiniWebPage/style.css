@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+p {
+  color: cadetblue;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Neon", cursive;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header H2 {
+  text-shadow: 2px 2px 4px #e9b949;
+  font-size: 40px;
+}
+.header H2 span {
+  color: #e9b949;
+}
+header {
+  padding: 20px;
+  background-color: #fffaed;
+}
+.N1 ul {
+  display: flex;
+  column-gap: 100px;
+}
+.N1 i {
+  display: none;
+}
+.N1 ul {
+  display: flex;
+  column-gap: 100px;
+}
+.N1 ul li {
+  border: 2px solid transparent;
+  background-color: #fffaed;
+  border-radius: 5px;
+}
+.N1 ul li a {
+  font-family: "Roboto", sans-serif;
+  font-family: "Tilt Neon", cursive;
+  color: darkslategray;
+}
+.N1 ul li a:hover {
+  color: darkblue;
+}
+
+.N1 ul li:hover {
+  background-color: #e9b949;
+}
+#raul {
+  background-color: #fffaed;
+  height: 100vh;
+}
+.button1 {
+  width: 15%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #e9b949;
+}
+.button1:hover {
+  background-color: brown;
+  color: #e9b949;
+}
+.button1 {
+  width: 15%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #e9b949;
+}
+.raul {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.raul p {
+  color: darkslategray;
+}
+.icon {
+  display: flex;
+  column-gap: 20px;
+}
+.icon .fa-brands {
+  font-size: 30px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #fffaed;
+}
+.icon .fa-brands:hover {
+  color: #fffaed;
+  background-color: #e9b949;
+}
+.john {
+  font-size: 48px;
+}
+.img-border {
+  border: 2px solid #e9b949;
+  border-radius: 10px;
+}
+.img .img-border img {
+  width: 200px;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+.img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.raul1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.raul1 {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.John::before {
+  content: "";
+  width: 50px;
+  display: block;
+  border: 2px solid #e9b949;
+}
+.hello {
+  background-color: white;
+  height: 100vh;
+}
+.button2 {
+  width: 15%;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #e9b949;
+}
+.button2:hover {
+  background-color: brown;
+  color: #e9b949;
+}
+.mathi {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  column-gap: 40px;
+}
+.photo img {
+  width: 200px;
+}
+.mathi1 {
+  flex-direction: column;
+  row-gap: 20px;
+}
+.about {
+  font-size: 48px;
+}
+.about::after {
+  content: "";
+  width: 50px;
+  display: block;
+  border: 2px solid #e9b949;
+}
+.photo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.photo-border {
+  border: 2px solid #e9b949;
+  border-radius: 10px;
+}
+.photo .photo-border img {
+  width: 200px;
+  border-radius: 10px;
+  position: relative;
+  top: -20px;
+  right: -20px;
+}
+.service {
+  color: darkslategray;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.tony {
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 30px;
+}
+.hi {
+  height: 100vh;
+  background-color: rgb(202, 233, 244);
+}
+.box {
+  background-color: white;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  height: 50vh;
+  padding: 50px 50px;
+}
+
+.box i {
+  color: darkslategray;
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
+.box1:hover {
+  background-color: #e9b949;
+}
+.box h2 {
+  color: darkslategray;
+  display: flex;
+  justify-content: center;
+}
+
+.DQ {
+  background-color: darkslategrey;
+  height: 50vh;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  column-gap: 30px;
+}
+.DQ .footer i {
+  font-size: 36px;
+  color: #e9b949;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: darkslategray;
+}
+.DQ .footer i:hover {
+  color: darkslategray;
+  background-color: #e9b949;
+}
+
+@media only screen and (max-width: 991px) {
+  .raul {
+    flex-direction: column-reverse;
+    justify-items: center;
+  }
+  .mathi {
+    display: block;
+    justify-content: center;
+  }
+  .tony {
+    display: block;
+  }
+  .box {
+    border: 2px solid darkgrey;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .N1 ul {
+    display: none;
+  }
+  .N1 i {
+    display: inline;
+  }
+}
