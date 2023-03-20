@@ -11,3 +11,5 @@
 ~09.Css-Grid-Media/box-https://sensational-dolphin-de1799.netlify.app
 
 ~09.Css-Grid-Media/minion-https://deluxe-jalebi-bae6f9.netlify.app
+
+~10-PortfolioMiniWebPage-https://lovely-taffy-57d884.netlify.app
