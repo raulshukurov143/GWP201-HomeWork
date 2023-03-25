@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+p {
+  color: darkcyan;
+}
+h1,
+p,
+h3,
+h4,
+h2,
+button {
+  font-family: "Catamaran", sans-serif;
+}
+.tea {
+  background-color: #f1f5f9;
+}
+.check {
+  color: #688f37;
+
+  font-family: "Grand Hotel", cursive;
+}
+
+.box h4 {
+  text-align: center;
+  color: #688f37;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  padding: 30vh;
+  column-gap: 60px;
+}
+.box img {
+  width: 300px;
+  border-radius: 5px;
+}
+.box1 {
+  display: flex;
+  column-gap: 60px;
+}
+.box button {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #688f37;
+  color: #f1f5f9;
+  padding: 5px;
+}
+button:hover {
+  background-color: #f1f5f9;
+  color: #688f37;
+}
+
+.box2 {
+  display: flex;
+  column-gap: 60px;
+}
+.text {
+  height: 300px;
+}
+.text p {
+  text-align: center;
+  width: 300px;
+}
+.text h2,
+h1 {
+  padding: 10px 0;
+}
+.second {
+  height: 100vh;
+}
+.second h1,
+h3 {
+  text-align: center;
+}
+
+.cup {
+  width: 350px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+}
+.cup img {
+  width: 350px;
+  border-radius: 5px;
+}
+.cup i {
+  font-size: 50px;
+  border: 5px solid #f1f5f9;
+  border-radius: 100%;
+  background-color: #688f37;
+  color: darkolivegreen;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+.explare {
+  color: #688f37;
+
+  font-family: "Grand Hotel", cursive;
+}
+.cup .tag {
+  text-align: center;
+  position: relative;
+  top: -20px;
+}
+.cup p {
+  text-align: center;
+  padding: 0 5px;
+}
+
+.cup {
+  text-align: center;
+}
+.cup button {
+  border: 2px solid transparent;
+  background-color: #688f37;
+  color: #f1f5f9;
+  padding: 5px;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #f1f5f9;
+  color: #688f37;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 991px) {
+  .main {
+    display: block;
+  }
+  .text h1,
+  h2 {
+    text-align: center;
+  }
+  .user {
+    display: block;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 777px) {
+  .main .box1 {
+    display: block;
+  }
+  .main .box2 {
+    display: block;
+  }
+}
