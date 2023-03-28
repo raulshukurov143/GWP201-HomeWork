@@ -149,7 +149,6 @@ button:hover {
   }
   .user {
     display: block;
-    text-align: center;
   }
 }
 @media only screen and (max-width: 777px) {

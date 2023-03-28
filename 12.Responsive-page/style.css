@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.flag {
+  background-color: darkslategray;
+  height: 10vh;
+  width: 100vw;
+
+  position: fixed;
+}
+
+.flag nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+}
+.flag nav ul li a {
+  padding: 10px;
+  color: white;
+  border: 2px solid transparent;
+}
+.flag nav ul li a:hover {
+  color: darkslategray;
+
+  border-radius: 5px;
+  background-color: white;
+}
+.flag nav ul li i {
+  border: 2px solid transparent;
+  color: white;
+  padding: 10px;
+}
+.flag nav ul li i:hover {
+  border-radius: 5px;
+  background-color: white;
+  color: darkslategray;
+}
+
+.band {
+  margin: 0 5%;
+
+  background-image: url(duman.jpg);
+  height: 100vh;
+}
+.fa-beat-fade {
+  display: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 35vh;
+}
+.text h1 {
+  color: darkslategray;
+  padding: 10px;
+}
+.text h1::after {
+  content: "";
+  width: 50px;
+
+  display: block;
+  border: 2px solid green;
+}
+span {
+  color: coral;
+  text-shadow: 2px 2px 4px orange;
+}
+.container {
+  background-image: url();
+}
+.sparrow {
+  background-image: url(trio.jpg);
+  height: 100vh;
+  margin: 0 5%;
+
+  background-attachment: fixed;
+}
+
+#box {
+  margin: 0 5%;
+
+  height: 100vh;
+}
+.boxes {
+  border: 2px solid orange;
+  height: 100vh;
+}
+.container h1 {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.box:first-child {
+  background-color: red;
+  position: relative;
+  margin-top: 20%;
+  margin-left: 40%;
+  z-index: 5;
+}
+.box:nth-child(2) {
+  background-color: burlywood;
+  position: relative;
+  margin-top: -200px;
+  margin-left: 400px;
+  z-index: 2;
+}
+.box:nth-child(3) {
+  background-color: blue;
+  position: relative;
+  margin-top: -80px;
+  margin-left: 500px;
+  z-index: 4;
+}
+.box:nth-child(4) {
+  background-color: brown;
+  position: relative;
+  margin-top: -180px;
+  margin-left: 650px;
+  z-index: 3;
+}
+.box:nth-child(5) {
+  background-color: yellow;
+  position: relative;
+  margin-top: -380px;
+  margin-left: 700px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .fa-bounce {
+    display: none;
+  }
+  .fa-beat-fade {
+    display: inline;
+  }
+  .li2 {
+    display: none;
+  }
+  .li3 {
+    display: none;
+  }
+  .li4 {
+    display: none;
+  }
+  .li5 {
+    display: none;
+  }
+  .text {
+    display: none;
+  }
+  .band {
+    background-image: url(sekil.jpg);
+    width: 100vh;
+  }
+}
