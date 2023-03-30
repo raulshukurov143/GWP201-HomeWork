@@ -1,0 +1,13 @@
+footer {
+  height: 50vh;
+  background-color: cadetblue;
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    li {
+      list-style-type: none;
+      color: darkslategray;
+    }
+  }
+}

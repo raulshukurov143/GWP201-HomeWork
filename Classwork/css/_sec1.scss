@@ -1,0 +1,37 @@
+.sec1 {
+  height: 80vh;
+  .container {
+    border: 3px solid darkorchid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0;
+    column-gap: 20px;
+  }
+  .box {
+    border: 2px dashed red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    transition: all 2s linear;
+    &:hover {
+      transform: rotateX(360deg);
+      h1 {
+        display: none;
+      }
+      img {
+        display: block;
+      }
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      display: none;
+    }
+  }
+}
