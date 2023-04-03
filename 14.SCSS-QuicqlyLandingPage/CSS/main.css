@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 76px;
+  background-color: #20484f;
+}
+header .container .header {
+  display: flex;
+  justify-content: space-around;
+}
+header .container .header h1 {
+  color: aliceblue;
+  margin: 21px 0 24px 40px;
+}
+header .container .header nav {
+  margin: 25px 0 26px;
+}
+header .container .header nav ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 32px;
+}
+header .container .header nav ul li {
+  list-style-type: none;
+}
+header .container .header nav ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+header .container .header .button {
+  color: #20484f;
+  gap: 12px;
+  margin: 17px;
+}
+header .container .header .button button {
+  padding: 10px 16px;
+  border-radius: 5px;
+  background: #b8e4da;
+}
+header .container .header .button a {
+  text-decoration: none;
+  color: #b8e4da;
+  padding: 0 30px;
+}
+
+.hero {
+  width: 1440px;
+  height: 825px;
+}
+.hero .container {
+  display: flex;
+  justify-content: space-around;
+}
+.hero .container .text .p1 {
+  position: absolute;
+  width: 239px;
+  height: 23px;
+  left: 139px;
+  top: 217px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+.hero .container .text .p2 {
+  position: absolute;
+  width: 557px;
+  height: 154px;
+  left: 139px;
+  top: 264px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 120%;
+}
+.hero .container .text .p3 {
+  position: absolute;
+  width: 483px;
+  height: 72px;
+  left: 139px;
+  top: 450px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+}
+.hero .container .text .button .d0 {
+  position: absolute;
+  width: 136px;
+  height: 58px;
+  left: 139px;
+  top: 570px;
+}
+.hero .container .text .button .d0 button {
+  padding: 16px 36px 15px 36px;
+  background-color: #20484f;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.hero .container .text .button .d1 {
+  position: absolute;
+  width: 168px;
+  height: 58px;
+  left: 295px;
+  top: 570px;
+}
+.hero .container .text .button .d1 button {
+  border-radius: 10px;
+  color: #20484f;
+  padding: 16px 36px 15px 36px;
+  background-color: #ffffff;
+}
+.hero .container .img {
+  border-radius: 12px;
+}
+.hero .container .img img {
+  position: absolute;
+  width: 415px;
+  height: 490px;
+  left: 875px;
+  top: 125px;
+  z-index: 2;
+}
+.hero .container .img .fon {
+  position: absolute;
+  width: 541px;
+  height: 601px;
+  left: 805px;
+  top: 80px;
+  z-index: 0;
+}
+
+.team .container .boxes {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  row-gap: 30px;
+}
+.team .container .boxes .box {
+  width: 200px;
+  padding: 0;
+}
+.team .container .boxes .box img {
+  width: 200px;
+}
+.team .container .boxes .box ul {
+  display: flex;
+  gap: 30px;
+}
+.team .container .boxes .box ul li {
+  list-style-type: none;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 3px;
+}
+
+footer {
+  padding: 58px 0 0 120px;
+  background-color: #20484f;
+  height: 385px;
+}
+footer .container {
+  display: flex;
+}
+footer .container .MAX h3 {
+  color: #ffffff;
+  font-size: 32px;
+  height: 40px;
+  margin: 58px 0 0 120px;
+}
+footer .container .MAX .main {
+  margin: 31px 0 0 120px;
+  display: flex;
+}
+footer .container .MAX .main .input {
+  display: block;
+}
+footer .container .MAX .main .input .D1 {
+  color: aliceblue;
+}
+footer .container .MAX .email {
+  border-radius: 70%;
+  display: flex;
+  background-color: aliceblue;
+  width: 383px;
+  height: 48px;
+  margin: 43px 0 0 120px;
+  padding: 0;
+}
+footer .container .MAX .email input {
+  padding-top: 10px;
+  padding-left: 24px;
+  height: 48px;
+  width: 247px;
+  font-size: 18px;
+  color: #b8e4da;
+}
+footer .container .MAX .email button {
+  background-color: #b8e4da;
+  font-size: 18px;
+  height: 48px;
+  width: 136px;
+  padding-top: 10px;
+  padding-left: 24px;
+}
+footer .container .main {
+  margin-top: 69px;
+  gap: 30px;
+  margin-left: 227px;
+  display: flex;
+  color: #ffffff;
+}
+footer .container .main .item ul li {
+  list-style-type: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,28 @@
+.team {
+  .container {
+    .boxes {
+      display: flex;
+      justify-content: center;
+      column-gap: 70px;
+      row-gap: 30px;
+      .box {
+        width: 200px;
+        img {
+          width: 200px;
+        }
+        ul {
+          display: flex;
+          gap: 30px;
+          li {
+            list-style-type: none;
+            border: 1px solid black;
+            border-radius: 100%;
+            padding: 3px;
+          }
+        }
+
+        padding: 0;
+      }
+    }
+  }
+}
