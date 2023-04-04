@@ -16,6 +16,9 @@ header {
           justify-content: space-around;
           gap: 32px;
           li {
+            .fa-solid {
+              display: none;
+            }
             list-style-type: none;
             a {
               color: aliceblue;
@@ -39,6 +42,23 @@ header {
         gap: 12px;
 
         margin: 17px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  header {
+    .container {
+      .header {
+        nav {
+          display: none;
+        }
+        .button {
+          display: none;
+        }
+        .fa-solid  {
+          display: block;
+        }
       }
     }
   }

@@ -27,6 +27,9 @@ header .container .header nav ul {
 header .container .header nav ul li {
   list-style-type: none;
 }
+header .container .header nav ul li .fa-solid {
+  display: none;
+}
 header .container .header nav ul li a {
   color: aliceblue;
   text-decoration: none;
@@ -47,15 +50,41 @@ header .container .header .button a {
   padding: 0 30px;
 }
 
+@media only screen and (max-width: 767px) {
+  header .container .header nav {
+    display: none;
+  }
+  header .container .header .button {
+    display: none;
+  }
+  header .container .header .fa-solid {
+    display: block;
+  }
+}
 .hero {
   width: 1440px;
   height: 825px;
 }
-.hero .container {
-  display: flex;
-  justify-content: space-around;
+.hero .container .row .col-6 {
+  border-radius: 12px;
 }
-.hero .container .text .p1 {
+.hero .container .row .col-6 img {
+  position: absolute;
+  width: 415px;
+  height: 490px;
+  left: 875px;
+  top: 125px;
+  z-index: 2;
+}
+.hero .container .row .col-6 .fon {
+  position: absolute;
+  width: 541px;
+  height: 601px;
+  left: 805px;
+  top: 80px;
+  z-index: 0;
+}
+.hero .container .row .col-6 .p1 {
   position: absolute;
   width: 239px;
   height: 23px;
@@ -65,7 +94,7 @@ header .container .header .button a {
   font-size: 18px;
   line-height: 23px;
 }
-.hero .container .text .p2 {
+.hero .container .row .col-6 .p2 {
   position: absolute;
   width: 557px;
   height: 154px;
@@ -75,7 +104,7 @@ header .container .header .button a {
   font-size: 64px;
   line-height: 120%;
 }
-.hero .container .text .p3 {
+.hero .container .row .col-6 .p3 {
   position: absolute;
   width: 483px;
   height: 72px;
@@ -85,75 +114,44 @@ header .container .header .button a {
   font-size: 24px;
   line-height: 150%;
 }
-.hero .container .text .button .d0 {
+.hero .container .row .col-6 .d0 {
   position: absolute;
   width: 136px;
   height: 58px;
   left: 139px;
   top: 570px;
 }
-.hero .container .text .button .d0 button {
+.hero .container .row .col-6 .d0 button {
   padding: 16px 36px 15px 36px;
   background-color: #20484f;
   border-radius: 10px;
   color: #ffffff;
 }
-.hero .container .text .button .d1 {
+.hero .container .row .col-6 .d1 {
   position: absolute;
   width: 168px;
   height: 58px;
   left: 295px;
   top: 570px;
 }
-.hero .container .text .button .d1 button {
+.hero .container .row .col-6 .d1 button {
   border-radius: 10px;
   color: #20484f;
   padding: 16px 36px 15px 36px;
   background-color: #ffffff;
 }
-.hero .container .img {
-  border-radius: 12px;
-}
-.hero .container .img img {
-  position: absolute;
-  width: 415px;
-  height: 490px;
-  left: 875px;
-  top: 125px;
-  z-index: 2;
-}
-.hero .container .img .fon {
-  position: absolute;
-  width: 541px;
-  height: 601px;
-  left: 805px;
-  top: 80px;
-  z-index: 0;
-}
 
-.team .container .boxes {
+.team .container .row .col-3 ul {
   display: flex;
-  justify-content: center;
-  -moz-column-gap: 70px;
-       column-gap: 70px;
-  row-gap: 30px;
+  gap: 20px;
 }
-.team .container .boxes .box {
-  width: 200px;
-  padding: 0;
-}
-.team .container .boxes .box img {
-  width: 200px;
-}
-.team .container .boxes .box ul {
-  display: flex;
-  gap: 30px;
-}
-.team .container .boxes .box ul li {
+.team .container .row .col-3 ul li {
   list-style-type: none;
-  border: 1px solid black;
+}
+.team .container .row .col-3 ul li i {
+  padding: 10px;
+  border: 1px solid darkslategray;
   border-radius: 100%;
-  padding: 3px;
 }
 
 footer {
@@ -161,26 +159,34 @@ footer {
   background-color: #20484f;
   height: 385px;
 }
-footer .container {
-  display: flex;
-}
-footer .container .MAX h3 {
+footer .container .row .col-6 h3 {
   color: #ffffff;
   font-size: 32px;
   height: 40px;
   margin: 58px 0 0 120px;
 }
-footer .container .MAX .main {
-  margin: 31px 0 0 120px;
+footer .container .row .col-6 .flex {
+  margin-top: 69px;
+  gap: 30px;
+  margin-left: 227px;
+  display: flex;
+  color: #ffffff;
   display: flex;
 }
-footer .container .MAX .main .input {
+footer .container .row .col-6 .flex .item ul li {
+  list-style-type: none;
+}
+footer .container .row .col-6 .main {
+  display: flex;
+  margin: 31px 0 0 120px;
+}
+footer .container .row .col-6 .main .imput {
   display: block;
 }
-footer .container .MAX .main .input .D1 {
+footer .container .row .col-6 .main .imput .D1 {
   color: aliceblue;
 }
-footer .container .MAX .email {
+footer .container .row .col-6 .email {
   border-radius: 70%;
   display: flex;
   background-color: aliceblue;
@@ -189,7 +195,7 @@ footer .container .MAX .email {
   margin: 43px 0 0 120px;
   padding: 0;
 }
-footer .container .MAX .email input {
+footer .container .row .col-6 .email input {
   padding-top: 10px;
   padding-left: 24px;
   height: 48px;
@@ -197,21 +203,11 @@ footer .container .MAX .email input {
   font-size: 18px;
   color: #b8e4da;
 }
-footer .container .MAX .email button {
+footer .container .row .col-6 .email button {
   background-color: #b8e4da;
   font-size: 18px;
   height: 48px;
   width: 136px;
   padding-top: 10px;
   padding-left: 24px;
-}
-footer .container .main {
-  margin-top: 69px;
-  gap: 30px;
-  margin-left: 227px;
-  display: flex;
-  color: #ffffff;
-}
-footer .container .main .item ul li {
-  list-style-type: none;
 }/*# sourceMappingURL=main.css.map */
