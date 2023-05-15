@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allContent {
+  background-image: url("./car.png");
+  height: 80vh;
+  padding: 20px;
+}
+.allContent header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.allContent header h1 {
+  color: white;
+  font-family: "Lilita One", cursive;
+}
+.allContent header nav .ul-1 {
+  display: none;
+}
+.allContent header nav .ul-1 li {
+  list-style-type: none;
+  color: white;
+}
+.allContent header nav .ul-2 {
+  display: flex;
+  -moz-column-gap: 30PX;
+       column-gap: 30PX;
+}
+.allContent header nav .ul-2 li {
+  list-style-type: none;
+}
+.allContent header nav .ul-2 li a {
+  font-family: "Lilita One", cursive;
+  color: white;
+  text-decoration: none;
+}
+.allContent header nav .ul-2 li a:hover {
+  text-decoration: underline;
+}
+.allContent .box {
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 30px;
+  border: 2px solid white;
+  width: 400px;
+}
+.allContent .box p {
+  font-size: 50px;
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .allContent {
+    height: 100vh;
+    background-image: url(./carMobile.png);
+  }
+  .allContent header nav .ul-2 {
+    display: none;
+  }
+  .allContent header nav .ul-1 {
+    display: block;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sec-1 {
+  height: 100vh;
+}
+.sec-1 .img img {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 500px;
+  height: 450px;
+}
+.sec-1 .content {
+  z-index: 1;
+  width: 500px;
+  background-color: white;
+  border: 2px solid transparent;
+  position: relative;
+  margin-top: -100px;
+  margin-left: 500px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sec-2 .OUR-1 img:hover {
+  opacity: 0.5;
+}
+.sec-2 .OUR-1 .title {
+  display: flex;
+  justify-content: space-between;
+}
+.sec-2 .OUR-1 .title h1 {
+  font-family: "Barlow", sans-serif;
+}
+.sec-2 .OUR-1 .title button {
+  padding: 0px 40px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.sec-2 .OUR-1 .title button:hover {
+  background-color: black;
+  color: white;
+}
+.sec-2 .OUR-2 {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .sec-2 .OUR-1 {
+    display: none;
+  }
+  .sec-2 .OUR-1 .row img {
+    width: 100%;
+  }
+  .sec-2 .OUR-1 .row img:hover {
+    opacity: 0.5;
+  }
+  .sec-2 .OUR-2 {
+    display: block;
+  }
+  .sec-2 .OUR-2 img {
+    width: 100%;
+  }
+  .sec-2 .OUR-2 button {
+    text-align: center;
+    margin: 30px;
+    padding: 0px 40px;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+  .sec-2 .OUR-2 button:hover {
+    background-color: black;
+    color: white;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: black;
+}
+footer .logo h1 {
+  color: white;
+}
+footer .logo nav ul li {
+  list-style-type: none;
+}
+footer .logo nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .logo nav ul li a:hover {
+  text-decoration: underline;
+}
+footer .lastContent nav ul {
+  display: flex;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+footer .lastContent nav ul li {
+  list-style-type: none;
+}
+footer .lastContent nav ul li i {
+  font-size: 24px;
+  color: white;
+}
+footer .lastContent nav ul li i:hover {
+  text-decoration: underline;
+}
+footer .lastContent p {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    width: 100vw;
+  }
+  footer .lastAllContent {
+    flex-direction: column;
+  }
+  footer .lastAllContent .logo h1 {
+    text-align: center;
+    font-family: "Lilita One", cursive;
+  }
+  footer .lastAllContent .logo nav ul {
+    flex-direction: column;
+  }
+  footer .lastAllContent .logo nav ul li a {
+    font-family: "Lilita One", cursive;
+  }
+}/*# sourceMappingURL=main.css.map */
